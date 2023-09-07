@@ -1,0 +1,81 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+.custom-file-upload {
+  margin: auto;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.custom-file-upload > img{
+  width: 150px;
+  height: 150px;
+}
+
+.col img {
+  position: absolute;
+  z-index: 100;
+}
+
+.home-shape {
+  position: absolute;
+  border-bottom-left-radius: 40px;
+  background-color: #81ab44;
+  width: 400px;
+  height: 450px;
+  margin-left: 200px;
+}
+
+.btn-home {
+  color: #ffffff;
+  background-color: #81ab44;
+  border-color: #81ab44;
+}
+
+.btn-home:hover {
+  color: #000000;
+  background-color: #6b9033;
+  border-color: #6b9033;
+}
+
+.navbar-items, .navbar-items h4{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: .2s;
+}
+
+.navbar-items h4:hover {
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.bg-themeclr {
+  background-color: #81ab44;
+}

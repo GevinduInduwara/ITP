@@ -1,0 +1,23 @@
+.Header {
+    text-align: center;
+    
+    margin: auto;
+    width: auto;
+    height: 30px;
+
+    background-color: #5b8d5d;
+    color: #fff;
+    padding: 10px;
+  }
+  .Header p1{
+    color: white;
+    font-size: 30px;
+    
+    padding: 4px;
+    width: 100px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+
+ 
